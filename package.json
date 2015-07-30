@@ -1,0 +1,26 @@
+{
+  "name": "iframeChat",
+  "version": "1.0.0",
+  "description": "iFrame Chatroom",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zargold/iFrameChat.git"
+  },
+  "keywords": [
+    "Javascript"
+  ],
+  "author": "Raz Goldin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zargold/iFrameChat/issues"
+  },
+  "homepage": "https://github.com/zargold/iFrameChat",
+  "dependencies": {
+    "express": "^4.13.1"
+  }
+}
