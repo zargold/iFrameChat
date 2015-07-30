@@ -1,0 +1,62 @@
+* {
+  font: 1rem Verdana, 'Gill Sans';
+  position: relative; }
+
+main {
+  top: 0;
+  height: 340px;
+  overflow-y: scroll;
+  float: left;
+  background: #f0f0f0;
+  width: 100%; }
+
+p {
+  background: linear-gradient(rgba(47, 203, 252, 0.9), rgba(47, 166, 252, 0.9));
+  border-radius: 5px;
+  color: white; }
+  p small {
+    font-size: .65rem;
+    text-align: center;
+    color: black;
+    display: block;
+    width: 100%;
+    background: #f0f0f0; }
+
+div {
+  width: 100%;
+  max-width: 100%;
+  min-width: 280px;
+  display: inline-block;
+  clear: both;
+  border-top: rgba(100, 30, 200, 0.9) 2px solid; }
+
+input, button {
+  height: 48px;
+  border: none;
+  color: white;
+  border-radius: 5px; }
+  input:hover, input:focus, button:hover, button:focus {
+    color: rgba(100, 30, 200, 0.9); }
+
+input {
+  width: 77%;
+  line-height: 48px;
+  min-width: 150px; }
+
+button {
+  width: 17.5%;
+  min-width: 60px;
+  margin-left: .15%;
+  background: rgba(100, 30, 200, 0.9);
+  -webkit-box-shadow: 0 2px 1px 0 rgba(135, 30, 255, 0.6);
+  box-shadow: 0 2px 1px 0 rgba(135, 30, 255, 0.6); }
+  button:focus, button:hover {
+    outline: none;
+    cursor: pointer;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(135, 30, 255, 0.6);
+    box-shadow: 0 2px 2px 0 rgba(135, 30, 255, 0.6); }
+
+strong {
+  color: rgba(100, 30, 200, 0.9); }
+
+/*# sourceMappingURL=style.css.map */
